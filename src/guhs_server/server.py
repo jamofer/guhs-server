@@ -4,7 +4,7 @@ import re
 import flask
 from flask import send_file, request
 
-import boot_script
+from guhs_server import boot_script
 from guhs_server import storage
 
 
