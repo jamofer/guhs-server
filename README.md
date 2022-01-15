@@ -15,4 +15,7 @@ pip3 install guhs-server
 ```
 
 ## Usage
-TBD
+```shell
+# Run gush-server command and take the hostname:port for GUHS CLI
+gush-server
+```
