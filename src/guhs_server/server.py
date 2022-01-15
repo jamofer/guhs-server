@@ -18,7 +18,7 @@ def boot_source():
     return send_file(io.BytesIO(content), mimetype=media_type)
 
 
-@app.get('/api/get/{parameter}')
+@app.get('/api/get/<parameter>')
 def get_parameter(parameter):
     return {'value': storage.get(parameter)}
 
